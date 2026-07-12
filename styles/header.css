@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 72px;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: .5px;
+  border-color: lightgray;
+}
+
+.left-section {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+ height: 32px;
+ margin-left: 32px;
+ margin-right: 24px;
+ cursor: pointer;
+}
+
+.youtube-logo {
+  height: 29px;
+  width: 120px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.middle-section {
+  background-color: lightpink;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+}
+
+.search-div {
+  display: flex;
+  flex: 0.75;
+  height: 40px;
+  max-width: 470px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  height: 100%;
+  width: 100%;;
+  cursor: text;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.search-button {
+  background-color: lightgray;
+  height: 100%;
+  width: 85px;
+  border-style: solid;
+  border-width: 0.1px;
+  
+}
+
+.voice-button {
+  height: 100%;
+}
+
+
+.right-section {
+  background-color: lightblue;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.upload-icon {
+height: 35px;
+}
+
+.youtube-apps {
+height: 35px;
+}
+
+.notification-icon {
+height: 35px;
+}
+
+.my-channel-thumbnail {
+height: 45px;
+border-radius: 20;
+border: none;
+}
