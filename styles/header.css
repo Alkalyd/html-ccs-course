@@ -5,7 +5,7 @@
   justify-content: space-between;
   border-style: solid;
   border-width: .5px;
-  border-color: black;
+  border-color: lightgray;
 }
 
 .left-section {
@@ -48,9 +48,18 @@
 
 .search-bar {
   flex: 1;
+  height: 34px;
   cursor: text;
   font-size: 20px;
   font-weight: 400;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, Ariel;
+  font-size: 16px;
 }
 
 .search-button {
