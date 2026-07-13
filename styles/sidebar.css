@@ -1,8 +1,11 @@
 .side-bar {
-  top: 56px;
-  height: 700px;
-  width: 72px;
-  padding-top: 4px;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 72px;
+  width: 70px;
+  
   align-items: center;
 }
 
