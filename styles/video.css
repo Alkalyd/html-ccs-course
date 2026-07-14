@@ -1,18 +1,19 @@
 .video-grid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-column-gap: 16px;
+      grid-column-gap: 20px;
       grid-row-gap: 40px;
       padding-top: 20px;
       padding-bottom: 20px;
-      padding-left: 20px;
+      padding-left: 40px;
       padding-right: 20px;
 
-      background-color: rgb(250, 250, 250);
+      background-color: rgb(240, 240, 240);
     }
 
     .thumbnail-div {
-      margin-bottom: 20px;
+      margin-bottom: 12px;
+      position: relative;
     }
 
     .thumbnail {
@@ -20,25 +21,37 @@
       cursor: pointer;
     }
 
+    .video-time {
+      position: absolute;
+      background-color: black;
+      color: white;
+      z-index: 50;
+      bottom: 10px;
+      right: 10px;
+      border-radius: 5px;
+      padding: 5px;
+      
+    }
+
     .channel-thumbnail {
       border-radius: 100px;
-      width: 100%;
+      width: 96%;
       cursor: pointer;
     }
 
     .video-info-grid {
       display: grid;
       grid-template-columns: 50px 1fr;
-      grid-column-gap: 8px;
+      grid-column-gap: 10px;
     }
 
     .video-title {
       font-weight: bold;
       margin-top: 0px;
       margin-bottom: 12px;
-      font-size: 16px;
+      font-size: 19px;
       width: auto;
-      line-height: 20px;
+      line-height: 28px;
       cursor: pointer;
     }
 
