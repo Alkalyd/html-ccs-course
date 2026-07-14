@@ -106,7 +106,7 @@
 }
 
 .right-section {
-  width: 200px;
+  width: 250px;
   margin-right: 20px;
   display: flex;
   align-items: center;
@@ -122,8 +122,24 @@ height: 32px;
 height: 32px;
 }
 
+.notification-div {
+  position: relative;
+  height: 32px;
+}
+
 .notification-icon {
 height: 32px;
+}
+
+.notification-count {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 18px;
+  border: solid;
 }
 
 .my-channel-thumbnail {
