@@ -123,6 +123,8 @@ height: 32px;
 }
 
 .notification-div {
+  display: flex;
+  justify-content: center;
   position: relative;
   height: 32px;
 }
@@ -134,12 +136,15 @@ height: 32px;
 .notification-count {
   position: absolute;
   z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: red;
+  top: -2px;
+  right: -2px;
+  background-color: rgba(255, 0, 0, 0.800);
   color: white;
   border-radius: 18px;
   border: solid;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  padding: 4;
 }
 
 .my-channel-thumbnail {
