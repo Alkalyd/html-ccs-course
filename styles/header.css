@@ -116,16 +116,25 @@
 
 .upload-icon {
 height: 32px;
+border-radius: 18px;
+}
+.upload-icon:hover {
+  background-color: rgba(255, 255, 255, 0.800);
 }
 
 .youtube-apps {
-height: 32px;
+  height: 32px;
+  border-radius: 18px;
+}
+.youtube-apps:hover {
+  background-color: rgba(255, 255, 255, 0.800);
 }
 
 .notification-div {
   display: flex;
   justify-content: center;
   position: relative;
+  border-radius: 18px;
 }
 
 .notification-icon {
@@ -139,8 +148,9 @@ height: 32px;
   right: -2px;
   background-color: rgba(255, 0, 0, 0.800);
   color: white;
-  border-radius: 18px;
+  border-radius: 30px;
   border: solid;
+  border-width: 0.1px;
   font-family: Roboto, Arial;
   font-size: 12px;
   padding: 4;
