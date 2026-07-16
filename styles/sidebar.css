@@ -6,19 +6,24 @@
   bottom: 0;
   top: 72px;
   width: 100px;
-  padding-top: 8px;
+  padding-top: 5px;
   
   align-items: center;
 }
 
 .sidebar-link {
+  height: 100px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.home-link {
+.side-link {
   height: 50px;
-  width: 30px;
+  width: 32px;
+}
+
+.sidebarlink-text {
+  font-size: 14px;
 }
